@@ -52,7 +52,8 @@ nav ul li a:hover::after{
     width: 100%;
 
 }
-
+/* Added a focus indicator that visually outlines links or buttons with a custom border 
+    after using the Tab key so keyboard users can see where the focus is */
 a:focus,
 button:focus {
     outline: 3px solid #c988f8;
