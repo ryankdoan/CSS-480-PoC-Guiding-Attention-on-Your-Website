@@ -53,6 +53,12 @@ nav ul li a:hover::after{
 
 }
 
+a:focus,
+button:focus {
+    outline: 3px solid #c988f8;
+    outline-offset: 2px;
+}
+
 .content {
     padding: 2em;
 }
@@ -81,7 +87,7 @@ nav ul li a:hover::after{
 .content h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
-    color:#bb7fe5
+    color:#bb7fe5;
 }
 
 .content p {

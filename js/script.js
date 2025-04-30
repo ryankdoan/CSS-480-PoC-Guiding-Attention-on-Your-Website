@@ -1,6 +1,6 @@
 
-function sortList() {    /* sort the list with id pastCourses */
-    const list = document.getElementById('pastCourses');
+function sortList() {
+    const list = document.getElementById('interests');
     const items = Array.from(list.children);
 
     /* shuffle the list items randomly */
@@ -10,3 +10,10 @@ function sortList() {    /* sort the list with id pastCourses */
      list.innerHTML = '';
      items.forEach(item => list.appendChild(item));
 }
+
+/* Added a keyboard shortcut where keyboard users can press the 'S' key to activate the sort list button */
+document.addEventListener('keydown', function(event) {
+    if (event.key.toLowerCase() === 's') {
+        sortList();
+    }
+});
