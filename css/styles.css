@@ -29,6 +29,7 @@ nav ul li a {
     text-decoration: none;
     padding: 0.5em 1em;
     position: relative;
+    font-weight:bold;
 }
 
 nav ul li a:hover {
@@ -56,7 +57,7 @@ nav ul li a:hover::after{
     after using the Tab key so keyboard users can see where the focus is */
 a:focus,
 button:focus {
-    outline: 3px solid #c988f8;
+    outline: 3px solid #6a1b9a;
     outline-offset: 2px;
 }
 
@@ -88,9 +89,28 @@ button:focus {
 .content h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
-    color:#bb7fe5;
+    /* Dark purple for higher contrast on white. */
+    color:#6a1b9a;
 }
 
 .content p {
     font-size: 1.2em;
+}
+
+/* Unvisited link color is set to a shade of blue for better visibility and accessibility */
+.content a:link {
+    color: #003D99;
+}
+
+/* Added a visited link color to differentiate between visited and unvisited links */
+.content a:visited {
+    color: #551a8b;
+}
+
+/*  Added a hover effect to links to improve user experience and accessibility.
+    The color changes to a lighter shade of blue on hover, and the background color
+    changes to a light blue for better visibility. */
+.content a:hover {
+    color: #003b80;
+    background-color: #e3f2fd;
 }
