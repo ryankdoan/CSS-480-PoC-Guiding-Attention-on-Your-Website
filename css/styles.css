@@ -114,3 +114,87 @@ button:focus {
     color: #003b80;
     background-color: #e3f2fd;
 }
+
+.center-text {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.5em;
+    color: #6a1b9a;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.gallery {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery div {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery div p {
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.center-text ul li {
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .benefits-list ul {
+    list-style-position: outside;
+    padding-left: 1.5em;
+    margin: 0;
+    text-align: left;
+  }
+
+.max-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.max-list li {
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
+}
+
+.icon {
+    display: inline-block;
+    width: 2em;
+}
+
+.max-list li strong {
+    color: #333;
+}
+.max-list li span.icon {
+    font-size: 1.3em;
+}
