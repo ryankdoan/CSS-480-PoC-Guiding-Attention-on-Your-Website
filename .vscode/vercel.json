@@ -1,7 +1,0 @@
-{
-    "rewrites": [
-      { "source": "/guiding-attention", "destination": "/guiding-attention.html" },
-      { "source": "/things-to-read", "destination": "/things-to-read.html" }
-    ]
-  }
-  
